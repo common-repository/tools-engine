@@ -1,0 +1,49 @@
+#tools {
+    display : grid;
+    grid-template-columns : auto auto;
+    grid-column-gap : 20px;
+    padding : 20px 20px 20px 0px;
+    font-size : 14px;
+    color : black;
+}
+
+#export {
+    background-color : #fff;
+    border-radius : 5px;
+    border : 1px solid #ccc;
+    padding : 10px;
+}
+
+#import {
+    background-color : #fff;
+    border-radius : 5px;
+    border : 1px solid #ccc;
+    padding : 10px;
+}
+
+#export-form > form{
+    display : grid;
+    grid-template-columns : auto auto;
+}
+
+#export-form > form > div {
+    padding : 10px;
+}
+
+#import-form > form > div {
+    padding : 10px;
+}
+
+button {
+    display : inline-block;
+    border : none;
+    background-color : #00a699;
+    color : #fff;
+    padding : 7px 25px;
+    text-align : center;
+    display : inline-block;
+    font-size : 14px;
+    cursor : pointer;
+}
+
+
